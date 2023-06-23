@@ -1,0 +1,10 @@
+encapsulation
+class :
+	var 
+	method
+
+
+Object: instance of a class 
+	 instantiation
+	 in order to run class
+

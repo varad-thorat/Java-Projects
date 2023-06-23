@@ -1,0 +1,19 @@
+//wajp to read list of numbers from the user and count 
+// number of +ve, number of -ve and number of 0's
+import java.io.*;
+import java.util.*;
+
+class P7{
+public static void main(String args[]){
+Console c = System.console();
+ArrayList<Double> data = new ArrayList<>();
+
+String res = c.readLine("wud u like to enter numbers :  y/n : ");
+while(res.equals("y")){
+	Double num = Double.parseDouble(c.readLine("enter food name: "));
+	data.add(num);
+	res = c.readLine("wud u like to enter more numbers :  y/n : ");
+}
+System.out.println("Food Ordered = " + foodList);
+}
+}

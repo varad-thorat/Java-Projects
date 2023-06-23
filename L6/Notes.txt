@@ -1,0 +1,14 @@
+if the class contains only behaviour then it is suggested to make all methods 
+static (advantage u wont need object to call those methods)
+
+Eg. Maths class
+      Character class
+
+//var args concept
+
+d	res= res + d
+
+10	=0+10
+20	=10+10
+30	=30+30
+	=60

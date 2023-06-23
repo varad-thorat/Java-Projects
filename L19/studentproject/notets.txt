@@ -1,0 +1,16 @@
+//ORM -> Object Relational Mapping
+// class -> table
+//   var -> columns
+
+//s1 : create POJO class
+//POJO -> Plane Old Java Object
+//s1 : Mapping file -> XML
+//s3 : Configuration file -> XML
+//s4 : 1) c and d
+       2) create
+       3) Read
+       4) Update
+       5) Delete
+       
+//getter -> accessor
+//setter -> mutator 

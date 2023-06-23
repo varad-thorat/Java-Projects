@@ -1,0 +1,33 @@
+When a program is run, the source code is first compiled into Java bytecode.
+This compilation process is done by Java's compiler, which itself is a program.
+Following that, the program gets executed, meaning the commands are executed 
+one-by-one by a Java-interpreter that is able to read Java bytecode.
+
+COMMENTS:
+
+1}Single-line comments are marked with two slashes //. Everything following them on the same line is interpreted as a comment.
+2}Multi-line comments are marked with a slash and an asterisk /*, and closed with an asterisk followed by a slash */.
+ Everything between them is interpreted as a comment.
+
+READING INPUTS:
+For reading input, we use the Scanner tool that comes with Java. 
+The tool can be imported for use in a program by adding the command import java.util.Scanner;
+before the beginning of the main program's frame (public class ...).
+The tool itself is created with Scanner scanner = new Scanner(System.in);.
+
+
+If one of the operands of the operation + is a string, the other operand will be changed into a string too during program execution. In the example below, the integer 2 is turned into the string "2", and a string has been appended to it.
+
+The precedence introduced earlier also apply here:
+
+System.out.println("Four: " + (2 + 2));
+System.out.println("But! Twenty-two: " + 2 + 2);
+
+Output: 
+
+Four: 4
+But! Twenty-two: 22
+
+
+A method means a named set consisting of statements that can be called from elsewhere in the program code by its name.
+Programming languages offer pre-made methods, but programmers can also write their own ones.
